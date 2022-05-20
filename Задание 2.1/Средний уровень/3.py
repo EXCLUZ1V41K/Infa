@@ -1,0 +1,5 @@
+n = int(input("n: "))
+m = int(input("m: "))
+k = int(input("k: "))
+l = int(input("l: "))
+print(n + m > k or (n > k and m < l))
